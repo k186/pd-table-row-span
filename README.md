@@ -1,9 +1,32 @@
 # table-row-span
-Automatic table rowspan
+
+Automatic rowspan based on the content of the table
 
 ### demo
 ```
-run demo.html in browser
+open demo.html in browser
 ```
 
-### user
+### jquery
+```javascript
+ $('#table-merge').PdTableRowSpan()
+```
+
+### options
+```javascript
+ $('#table-merge').PdTableRowSpan({
+      tags:'td',// compare tags
+      verticalAlign:'middle', //rowspan style 【middle top bottom】
+      from:2,// compare start col 
+      to:4// compare end col
+    })
+```
+
+### destroy
+```javascript
+ $('#table-merge').PdTableRowSpan('destroy')
+```
+
+### License
+This plugin is available under [the MIT license](http://mths.be/mit).
+

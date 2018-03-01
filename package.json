@@ -1,0 +1,44 @@
+{
+  "name": "pd-table-row-span",
+  "version": "1.0.0",
+  "description": "Automatic table rowspan",
+  "main": "src/PdTableRowSpan.js",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/k186/pd-table-row-span.git"
+  },
+  "dependencies": {
+    "jquery": "3.2.1"
+  },
+  "devDependencies": {
+    "babel-core": "6.25.0",
+    "babel-plugin-external-helpers": "6.22.0",
+    "babel-polyfill": "6.26.0",
+    "babel-preset-es2015": "6.24.1",
+    "rollup": "0.47.4",
+    "rollup-plugin-babel": "3.0.1",
+    "rollup-plugin-commonjs": "8.1.0",
+    "rollup-plugin-json": "2.3.0",
+    "rollup-plugin-node-resolve": "3.0.0",
+    "rollup-plugin-replace": "1.1.1",
+    "rollup-plugin-uglify": "2.0.1"
+  },
+  "keywords": [
+    "k186",
+    "table",
+    "rowspan",
+    "jquery",
+    "auto",
+    "rowspan",
+    "merge"
+  ],
+  "author": "k186",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/k186/pd-table-row-span/issues"
+  },
+  "homepage": "https://github.com/k186/pd-table-row-span#readme"
+}

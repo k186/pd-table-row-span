@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>PdTableRowSpan</title>
+  <link href="https://cdn.bootcss.com/bootstrap/3.1.1/css/bootstrap.css" rel="stylesheet">
+  <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+  <script src="./dist/PdTableRowSpan.min.js"></script>
+</head>
+<body>
+<div>
+  orTable
+</div>
+<table class="table table-bordered">
+  <tbody>
+  <tr>
+    <td>111</td>
+    <td>22</td>
+    <td>333</td>
+    <td>444</td>
+    <td>5555</td>
+  </tr>
+  <tr>
+    <td>111</td>
+    <td>333</td>
+    <td>444</td>
+    <td>555</td>
+    <td>6666</td>
+  </tr>
+  <tr>
+    <td>222</td>
+    <td>333</td>
+    <td>444</td>
+    <td>555</td>
+    <td>6666</td>
+  </tr>
+  <tr>
+    <td>222</td>
+    <td>333</td>
+    <td>666</td>
+    <td>44</td>
+    <td>6666</td>
+  </tr>
+  <tr>
+    <td>aaa</td>
+    <td>333</td>
+    <td>666</td>
+    <td>44</td>
+    <td>6666</td>
+  </tr>
+  <tr>
+    <td>aaa</td>
+    <td>333</td>
+    <td>666</td>
+    <td>44</td>
+    <td>6666</td>
+  </tr>
+  </tbody>
+</table>
+<div>
+  rowspan Table
+</div>
+<table id="table-merge" class="table table-bordered">
+  <tbody>
+  <tr>
+    <td>111</td>
+    <td>22</td>
+    <td>333</td>
+    <td>444</td>
+    <td>5555</td>
+  </tr>
+  <tr>
+    <td>111</td>
+    <td>333</td>
+    <td>444</td>
+    <td>555</td>
+    <td>6666</td>
+  </tr>
+  <tr>
+    <td>222</td>
+    <td>333</td>
+    <td>444</td>
+    <td>555</td>
+    <td>6666</td>
+  </tr>
+  <tr>
+    <td>222</td>
+    <td>333</td>
+    <td>666</td>
+    <td>44</td>
+    <td>6666</td>
+  </tr>
+  <tr>
+    <td>aaa</td>
+    <td>333</td>
+    <td>666</td>
+    <td>44</td>
+    <td>6666</td>
+  </tr>
+  <tr>
+    <td>aaa</td>
+    <td>333</td>
+    <td>666</td>
+    <td>44</td>
+    <td>6666</td>
+  </tr>
+  </tbody>
+</table>
+</body>
+<script>
+  $(document).ready(function () {
+    $('#table-merge').PdTableRowSpan({
+      tags:'td',
+      verticalAlign:'middle',
+      from:2,
+      to:4
+    })
+  })
+</script>
+</html>

@@ -1,7 +1,7 @@
 {
   "name": "pd-table-row-span",
   "version": "1.0.0",
-  "description": "Automatic table rowspan",
+  "description": "Automatic rowspan based on the content of the table",
   "main": "src/PdTableRowSpan.js",
   "scripts": {
     "build": "rollup -c"

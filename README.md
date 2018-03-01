@@ -1,3 +1,5 @@
+![npm](https://img.shields.io/npm/v/pd-table-row-span.svg)
+
 # table-row-span
 
 Automatic rowspan based on the content of the table

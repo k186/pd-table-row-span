@@ -6,6 +6,12 @@ Automatic rowspan based on the content of the table
 ```
 open demo.html in browser
 ```
+### rowspan Rules
+![](./rdimg/1.png)
+
+![](./rdimg/2.png)
+
+
 
 ### jquery
 ```javascript

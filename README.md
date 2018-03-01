@@ -23,8 +23,8 @@ open demo.html in browser
  $('#table-merge').PdTableRowSpan({
       tags:'td',// compare tags
       verticalAlign:'middle', //rowspan style 【middle top bottom】
-      from:2,// compare start col 
-      to:4// compare end col
+      from:2,// compare start col ,start from 1 
+      to:4// compare end col,start from 1
     })
 ```
 
